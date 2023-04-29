@@ -1,0 +1,17 @@
+/*
+------------------------------------------------------------------
+[Master Stylesheet]
+------------------------------------------------------------------*/
+@import url("fonts.css");
+@import url("font-awesome.min.css");
+@import url("custom_animation.css");
+/*-- plugins --*/
+@import url("../js/plugins/owl-crousel/owl.carousel.css");
+@import url("../js/plugins/datepicker/jquery-ui.css");
+/*-- plugins --*/
+@import url("bootstrap.min.css");
+@import url("flaticon.css");
+@import url("style.css");
+@import url("responsive.css");
+
+

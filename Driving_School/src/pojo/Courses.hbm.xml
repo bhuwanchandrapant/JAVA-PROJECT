@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 13 Feb, 2023 4:39:29 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="pojo.Courses" table="courses" catalog="driving_school">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="courses" type="string">
+            <column name="courses" length="100" />
+        </property>
+        <property name="price" type="string">
+            <column name="price" length="100" />
+        </property>
+        <property name="time" type="string">
+            <column name="time" length="50" />
+        </property>
+        <property name="image" type="string">
+            <column name="image" length="200" />
+        </property>
+    </class>
+</hibernate-mapping>
